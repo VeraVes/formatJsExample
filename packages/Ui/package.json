@@ -1,0 +1,8 @@
+{
+  "name": "@my/ui",
+  "version": "1.0.0",
+  "scripts": {
+    "extract": "../../node_modules/.bin/formatjs extract src/**/*.js --out-file lang/en.json --id-interpolation-pattern [sha512:contenthash:base64:6]",
+    "dev": "../../node_modules/.bin/webpack-dev-server --open --config webpack.dev.js"
+  }
+}
