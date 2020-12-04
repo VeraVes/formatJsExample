@@ -10,6 +10,7 @@ ReactDOM.render(
     <Message/>
     <div>
       <FormattedMessage defaultMessage='main'/>
+      <FormattedMessage defaultMessage='text'/>
     </div>
   </IntlProvider>,
   document.getElementById('app')

@@ -11,7 +11,7 @@ const stringifyOpts = {
 manageTranslations({
   messagesDirectory: 'lang',
   translationsDirectory: './src/locales',
-  languages: ['ru', 'en', 'es'],
+  languages: ['ru'],
   overrideCoreMethods: {
     reportLanguage: function (langResults) {
       if (
