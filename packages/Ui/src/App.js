@@ -12,6 +12,7 @@ ReactDOM.render(
       <FormattedMessage defaultMessage='main'/>
       <FormattedMessage defaultMessage='text'/>
       <FormattedMessage defaultMessage='dimon'/>
+      <FormattedMessage defaultMessage='new'/>
     </div>
   </IntlProvider>,
   document.getElementById('app')
